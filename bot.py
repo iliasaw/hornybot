@@ -518,4 +518,4 @@ async def on_command_error(ctx, error):
         print(f"Error: {error}")
 
 
-bot.run('ODQ3MTExOTAzOTIyODgwNTEz.GywCDe.wo4Xs1ArtYHz6Cl-IOHvlKTfDTbOqL9fiocISk')
+bot.run(os.getenv("TOKEN"))
